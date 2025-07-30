@@ -8,7 +8,7 @@ $H = Head$
 $Q = Volumetric Flow$
 $rpm = Revolutions per Minute$
 
-![Compressor Map](Images/CompressorMapWithEfficiencyCurves.png)
+![Compressor Map](images/CompressorMapWithEfficiencyCurves.png)
 
 into csv-file with columns " Q", "H", "Eff".  Each speed curve with its own csv-file. The csv-files may be copied across to UniSim with normal copy-paste.
 
