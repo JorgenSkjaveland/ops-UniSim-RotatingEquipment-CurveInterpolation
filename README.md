@@ -1,6 +1,15 @@
 # Ops-CompressorMapInterpolationForUniSim
-Convert a drawn compressor map, 
-\newline
-$Eff( Head, Q , rpm)$, 
-\newline
-into csv-file with columns " Q", "Head", "Eff".  Each speed curve with its own csv-file. The csv-files may be copied across to UniSim with normal copy-paste.
+Convert a drawn compressor map on the form: 
+
+$E (H, Q, rpm)$
+
+$E = Efficiency$
+$H = Head$
+$Q = Volumetric Flow$
+$rpm = Revolutions per Minute$
+
+![alt text](Isolated.png "Title")
+
+into csv-file with columns " Q", "H", "Eff".  Each speed curve with its own csv-file. The csv-files may be copied across to UniSim with normal copy-paste.
+
+
