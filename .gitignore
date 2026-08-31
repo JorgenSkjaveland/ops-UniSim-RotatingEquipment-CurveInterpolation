@@ -1,3 +1,21 @@
-*.csv
-*.tsv
-*.png
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+#Folders
+
+RotatingEquipmentDataForUniSim/*
+!RotatingEquipmentDataForUniSim/.gitkeep
+
+Previous_Curve_Data/*
+!Previous_Curve_Data/.gitkeep
+
+InputCurves/*
+!InputCurves/.gitkeep
