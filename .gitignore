@@ -11,11 +11,3 @@ wheels/
 
 #Folders
 
-RotatingEquipmentDataForUniSim/*
-!RotatingEquipmentDataForUniSim/.gitkeep
-
-Previous_Curve_Data/*
-!Previous_Curve_Data/.gitkeep
-
-InputCurves/*
-!InputCurves/.gitkeep
