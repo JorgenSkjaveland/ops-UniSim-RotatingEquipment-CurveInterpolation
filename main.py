@@ -101,7 +101,7 @@ def PlotHeadFit(Flow, Head, Flow_list, Head_list, name=None, folder=None, method
     return 0
 
 def Plot3D(CompressorName: str):
-    tsv_files = list((Path(__file__).parent / "CompressorDataForUniSim").glob("*.tsv"))
+    tsv_files = list((Path(__file__).parent / "RotatingEquipmentDataForUniSim").glob("*.tsv"))
     fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
     ax.set_xlabel("Flow [m3/h]")
     ax.set_ylabel("Head [kJ/kg]")
@@ -116,7 +116,7 @@ def Plot3D(CompressorName: str):
     return 0
 
 def PlotFlowHead(CompressorName: str):
-    tsv_files = list((Path(__file__).parent / "CompressorDataForUniSim").glob("*.tsv"))
+    tsv_files = list((Path(__file__).parent / "RotatingEquipmentDataForUniSim").glob("*.tsv"))
     fig, ax = plt.subplots()
     ax.set_xlabel("Flow [m3/h]")
     ax.set_ylabel("Head [kJ/kg]")
@@ -126,7 +126,7 @@ def PlotFlowHead(CompressorName: str):
         ax.plot(CompressorData.values[:, 0], CompressorData.values[:, 1])
     ax.set_title(f"{CompressorName}")
     plt.legend()
-    fig.savefig(f"CompressorDataForUniSim/{CompressorName}.png")
+    fig.savefig(f"RotatingEquipmentDataForUniSim/{CompressorName}.png")
     plt.close()
     return 0
     
